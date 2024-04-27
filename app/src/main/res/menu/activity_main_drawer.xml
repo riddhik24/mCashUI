@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_redeem"
+            android:icon="@drawable/baseline_redeem_24"
+            android:title="@string/menu_redeem" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/baseline_attach_money_24"
+            android:title="@string/menu_transaction" />
+        <item
+            android:id="@+id/nav_inviteAFriend"
+            android:icon="@drawable/baseline_people_24"
+            android:title="@string/menu_inviteAFriend" />
+        <item
+            android:id="@+id/nav_rateUs"
+            android:icon="@drawable/baseline_star_rate_24"
+            android:title="@string/menu_rateus" />
+        <item
+            android:id="@+id/nav_helpAndSupport"
+            android:icon="@drawable/baseline_help_24"
+            android:title="@string/menu_helpAndSupport" />
+        <item
+            android:id="@+id/nav_privacyPolicy"
+            android:icon="@drawable/baseline_privacy_tip_24"
+            android:title="@string/menu_privacyPolicy" />
+    </group>
+</menu>

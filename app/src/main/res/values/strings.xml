@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">mCashUI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Riddhik Mohite</string>
+    <string name="nav_header_subtitle">riddhikmohite@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_FAQ"></string>
+    <string name="action_InviteFriend"></string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_redeem">Redeem</string>
+    <string name="menu_transaction">Transaction</string>
+    <string name="menu_inviteAFriend">Invite a Friend</string>
+    <string name="menu_rateus">Rate Us</string>
+    <string name="menu_helpAndSupport">Help and Support</string>
+    <string name="menu_privacyPolicy">Privacy Poilicy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
