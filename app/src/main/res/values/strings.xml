@@ -17,4 +17,11 @@
     <string name="menu_privacyPolicy">Privacy Poilicy</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily_reward">Daily Reward</string>
+    <string name="log_in_daily_to_claim_free_ncoins">Log in daily to claim free\ncoins!</string>
+    <string name="log_in_daily_to_claim_free_n_coins">Log in daily to claim free\n coins!</string>
+    <string name="daily_rewards">Daily Rewards</string>
+    <string name="task_rewards">Task Rewards</string>
+    <string name="complete_tasks_to_get_coins">Complete tasks to get coins.</string>
+    <string name="bullet"> \u25CF</string>
 </resources>

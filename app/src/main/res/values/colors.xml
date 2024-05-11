@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fragmentbg">#B8CF9E</color>
+    <color name="purple">#800080</color>
 </resources>

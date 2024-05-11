@@ -40,8 +40,6 @@ public class FAQFragment extends Fragment {
         binding = FragmentFAQBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textFaq;
-        faqViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

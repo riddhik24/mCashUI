@@ -2,6 +2,8 @@ package com.example.mcashui.ui.rateUs;
 
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -21,6 +23,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -32,14 +35,19 @@ public class rateUs extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        RateUsViewModel rateUsViewModel =
-                new ViewModelProvider(this).get(RateUsViewModel.class);
 
         binding =FragmentRateUsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final TextView textView = binding.textRateUs;
-        rateUsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        Button button=(Button) root.findViewById(R.id.playstore);
+        Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=in.mcash.app"));
+        startActivity(intent);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=in.mcash.app"));
+                startActivity(intent);
+            }
+        });
         return root;
     }
 

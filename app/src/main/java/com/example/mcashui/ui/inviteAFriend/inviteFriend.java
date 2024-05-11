@@ -40,9 +40,6 @@ public class inviteFriend extends Fragment {
 
         binding = FragmentInviteFriendBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final TextView textView = binding.textInviteFriend;
-        inviteFriendViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

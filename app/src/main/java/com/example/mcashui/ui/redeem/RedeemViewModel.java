@@ -10,7 +10,7 @@ public class RedeemViewModel extends ViewModel {
 
     public RedeemViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Redeem fragment");
+        mText.setValue("No Redeem!");
     }
 
     public LiveData<String> getText() {

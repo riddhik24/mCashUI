@@ -15,34 +15,34 @@
         android:id="@+id/nav_redeem"
         android:name="com.example.mcashui.ui.redeem.redeem"
         android:label="@string/menu_redeem"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_redeem" />
     <fragment
         android:id="@+id/nav_transaction"
         android:name="com.example.mcashui.ui.transaction.transaction"
         android:label="@string/menu_transaction"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_transaction" />
 
     <fragment
         android:id="@+id/nav_rateUs"
         android:name="com.example.mcashui.ui.rateUs.rateUs"
         android:label="@string/menu_rateus"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_rate_us" />
 
     <fragment
         android:id="@+id/nav_inviteAFriend"
         android:name="com.example.mcashui.ui.inviteAFriend.inviteFriend"
         android:label="@string/menu_inviteAFriend"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_invite_friend" />
 
     <fragment
         android:id="@+id/nav_helpAndSupport"
         android:name="com.example.mcashui.ui.helpAndSupport.helpAndSupport"
         android:label="@string/menu_helpAndSupport"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_help_and_support" />
 
     <fragment
         android:id="@+id/nav_privacyPolicy"
         android:name="com.example.mcashui.ui.privacyPolicy.privacypolicy"
         android:label="@string/menu_privacyPolicy"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_privacypolicy" />
 </navigation>

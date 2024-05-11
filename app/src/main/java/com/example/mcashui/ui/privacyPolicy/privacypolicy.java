@@ -2,6 +2,8 @@ package com.example.mcashui.ui.privacyPolicy;
 
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -21,6 +23,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -32,14 +35,18 @@ public class privacypolicy extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        PrivacypolicyViewModel privacypolicyViewModel =
-                new ViewModelProvider(this).get(PrivacypolicyViewModel.class);
-
         binding = FragmentPrivacypolicyBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final TextView textView = binding.textPrivacyPolicy;
-        privacypolicyViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        Button button=(Button) root.findViewById(R.id.redirect);
+        Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://mcash.fun/privacypolicy"));
+        startActivity(intent);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://mcash.fun/privacypolicy"));
+                startActivity(intent);
+            }
+        });
         return root;
     }
 
@@ -48,5 +55,4 @@ public class privacypolicy extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-
 }

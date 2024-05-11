@@ -38,9 +38,6 @@ public class walletFragment extends Fragment {
 
         binding = FragmentWalletBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final TextView textView = binding.textWallet;
-        walletViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

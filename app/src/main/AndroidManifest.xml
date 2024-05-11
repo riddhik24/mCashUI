@@ -13,9 +13,12 @@
         android:theme="@style/Theme.MCashUI"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Slider"
+            android:exported="false"
+            android:theme="@style/Theme.MCashUI.NoActionBar"/>
+        <activity
+            android:name=".SplashActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.MCashUI.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +26,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MCashUI.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MCashUI.NoActionBar"></activity>
     </application>
 
 </manifest>
