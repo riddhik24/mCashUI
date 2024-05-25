@@ -91,7 +91,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(activityMainBinding.navView, navController);
         fragmentManager =getSupportFragmentManager();
-
     }
 
     @Override
@@ -131,14 +130,5 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         FragmentTransaction transaction=fragmentManager.beginTransaction();
         transaction.replace(R.id.fragment_container, fragment);
         transaction.commit();
-    }
-
-    private void helpAndSupportEmail(String to_email){
-        Intent helpmail=new Intent(Intent.ACTION_SEND);
-        helpmail.putExtra(Intent.EXTRA_EMAIL, new String[]{to_email});
-        helpmail.putExtra(Intent.EXTRA_SUBJECT, (String) null);
-        helpmail.putExtra(Intent.EXTRA_TEXT,(String) null);
-        helpmail.setType("message/rfc822");
-        startActivity(Intent.createChooser(helpmail ,"Choose email client: "));
     }
 }

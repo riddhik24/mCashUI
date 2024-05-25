@@ -39,7 +39,8 @@ public class HomeFragment extends Fragment {
         Homeitems.add(new HomeItems(R.drawable.baseline_checklist_24,"Task Reward","Complete tasks to get \ncoins!"));
         Homeitems.add(new HomeItems(R.drawable.baseline_flash_on_24,"Buzz Offers","Complete buzz offers get \ncoins!"));
         Homeitems.add(new HomeItems(R.drawable.baseline_local_offer_24,"Limited Offer","Complete offers to get \ncoins!"));
-
+        Homeitems.add(new HomeItems(R.drawable.baseline_local_offer_24,"Adgate Offer",""));
+        Homeitems.add(new HomeItems(R.drawable.baseline_local_offer_24,"Adscend Offer",""));
 
         return Homeitems;
     }

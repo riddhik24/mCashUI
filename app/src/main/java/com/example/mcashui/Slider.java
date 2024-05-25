@@ -56,10 +56,11 @@ public class Slider extends AppCompatActivity {
         });
 
         skipbtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Slider.this,LoginActivity.class);
-                startActivity(intent);
+                    Intent intent = new Intent(Slider.this, LoginActivity.class);
+                    startActivity(intent);
             }
         });
         viewPager.addOnPageChangeListener(viewPagerChangeListener);
@@ -73,7 +74,8 @@ public class Slider extends AppCompatActivity {
         @Override
         public void onPageSelected(int position) {
             if(position==layouts.length-1){
-                nextbtn.setText("Login");
+                nextbtn.setText("START");
+                skipbtn.setText("");
             }else{
                 nextbtn.setText("Next");
             }
