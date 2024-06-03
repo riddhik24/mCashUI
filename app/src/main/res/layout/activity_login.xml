@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:id="@+id/main"
-    android:background="@color/fragmentbg"
+    android:background="@color/pinky"
     android:layout_width="match_parent">
     <TextView
         android:layout_width="wrap_content"
@@ -28,8 +28,7 @@
         android:layout_width="332dp"
         android:layout_height="304dp"
         android:layout_gravity="center"
-        android:src="@drawable/loginimg"
-        android:layout_marginTop="50dp"/>
+        android:src="@drawable/loginimg" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,12 +76,12 @@
 
     <Button
         android:id="@+id/login_btn"
-        android:layout_width="366dp"
+        android:layout_width="256dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         android:background="@drawable/loginbtn_background"
         android:text="Login"
-        android:layout_marginTop="40dp"
         android:textSize="25dp" />
 
 </LinearLayout>

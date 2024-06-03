@@ -13,9 +13,13 @@
         android:theme="@style/Theme.MCashUI"
         tools:targetApi="31">
         <activity
+            android:name=".GameDirectActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MCashUI.NoActionBar" />
+        <activity
             android:name=".Slider"
             android:exported="false"
-            android:theme="@style/Theme.MCashUI.NoActionBar"/>
+            android:theme="@style/Theme.MCashUI.NoActionBar" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -33,7 +37,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.MCashUI.NoActionBar"></activity>
+            android:theme="@style/Theme.MCashUI.NoActionBar" />
     </application>
 
 </manifest>

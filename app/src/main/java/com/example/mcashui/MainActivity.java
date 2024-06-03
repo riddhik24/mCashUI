@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     return true;
                 }
                 else if(itemId== R.id.action_gameredirect){
-                    Intent intent =new Intent(Intent.ACTION_VIEW, Uri.parse("https://nkixlwewf.play.gamezop.com/en/intro?int-nav=1"));
+                    Intent intent =new Intent(MainActivity.this, GameDirectActivity.class);
                     startActivity(intent);
                 }
                 else if(itemId== R.id.action_quiz){

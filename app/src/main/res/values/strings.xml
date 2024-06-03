@@ -24,4 +24,7 @@
     <string name="task_rewards">Task Rewards</string>
     <string name="complete_tasks_to_get_coins">Complete tasks to get coins.</string>
     <string name="bullet"> \u25CF</string>
+    <string name="back"><![CDATA[< Back]]></string>
+    <string name="next"><![CDATA[Next >]]></string>
+    <string name="notification">Notification</string>
 </resources>

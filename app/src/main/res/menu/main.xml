@@ -4,7 +4,8 @@
     <item
         android:id="@+id/action_FAQ"
         android:title="FAQ"
-        android:icon="@drawable/baseline_question_answer_24" />
+        android:icon="@drawable/baseline_question_answer_24"
+        app:showAsAction=""/>
 
     <item
         android:id="@+id/action_InviteFriend"
@@ -25,5 +26,4 @@
         android:id="@+id/action_wallet"
         android:title="Wallet"
         android:icon="@drawable/baseline_account_balance_wallet_24"/>
-
 </menu>

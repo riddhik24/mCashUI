@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fragmentbg"
+    android:background="@color/pinky"
     tools:context=".ui.wallet.walletFragment">
 
     <TextView
@@ -29,7 +29,7 @@
         android:id="@+id/walletcoins"
         android:layout_width="210dp"
         android:layout_height="50dp"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_purple"
         android:ems="10"
         android:gravity="center"
         android:inputType="number"

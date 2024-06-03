@@ -27,6 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/bottomAppBar"
+                android:background="#DFC831CD"
                 android:layout_gravity="bottom">
 
 
@@ -34,7 +35,6 @@
                 android:id="@+id/bottomNavigationView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#DFC831CD"
                 app:labelVisibilityMode="selected"
                 app:menu="@menu/main" />
             </com.google.android.material.bottomappbar.BottomAppBar>

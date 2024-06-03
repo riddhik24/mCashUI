@@ -17,7 +17,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#6AE4D3">
+            android:background="@drawable/rounded_blue">
 
             <ImageView
                 android:id="@+id/icons"
@@ -59,51 +59,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="500dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:background="@drawable/adscend_bg"
-                android:layout_width="150dp"
-                android:layout_marginLeft="20dp"
-                android:layout_height="80dp">
-
-                <TextView
-                    android:layout_width="106dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Adscend Offer"
-                    android:layout_marginLeft="15dp"
-                    android:textAlignment="center"
-                    android:textColor="@color/purple"
-                    android:textSize="16dp"
-                    android:textStyle="bold"/>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginLeft="250dp"
-                android:orientation="horizontal"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:background="@drawable/adgate_bg">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="18dp"
-                    android:text="Adgate Offer"
-                    android:textAlignment="center"
-                    android:textColor="@color/purple"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-
 </LinearLayout>
